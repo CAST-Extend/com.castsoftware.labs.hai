@@ -14,10 +14,10 @@ Assessing the risks of software downtime based on its structural quality. Softwa
 The Research Labs offer a solution based on CAST AIP Assessment Model, following a Goal-Question-Metric approach.
 
 * The _High Availability Index_ goal, modeled as a Business Criterion, is based on the answers to the following four questions:
-* The _HA - detect and handle failures_ question: is the software ?
-* The _HA - external threats mitigation_ question: is the software ?
-* The _HA - unexpected workload mitigation_ question: is the software ?
-* The _HA - internal failure mitigation_ question: is the software ? 
+* The _HA - detect and handle failures_ question: is the software detecting and handling errors and exceptions ?
+* The _HA - external threats mitigation_ question: is the software protecting itself agains malevolent actions from external actors ?
+* The _HA - unexpected workload mitigation_ question: is the software ready to accomodate unexpected surge in workload ?
+* The _HA - internal failure mitigation_ question: is the software using structural coding patterns that are known to cause functional failures ? 
   
 The Research Labs released this first version of the High Availability Index to leverage the expertise and experience of customers in order to fine-tune its exact composition and collect feedback.
 
@@ -90,7 +90,7 @@ Packaging, delivering and analyzing your source code is performed the same way a
 
 To get results:
 
-* run a new snapshot
+* run a new snapshot \/ consolidate existing snapshot(s) 
 
 To avoid computing the High Availability Index for applications whose continuous availability is not required:
 
