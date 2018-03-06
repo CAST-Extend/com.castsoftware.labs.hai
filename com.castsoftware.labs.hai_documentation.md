@@ -53,7 +53,7 @@ This extension is designed to bring new quality indicators aside existing ones.
 
 This extension is compatible with:
 
-* 8.2.x out-of-the-box \(AIP release 8.2.0 used for the tests\)
+* 8.2.x out-of-the-box \(AIP releases 8.2.1 and 8.3.0 used for the tests\)
 
 # Supported DBMS servers
 
